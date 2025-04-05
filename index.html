@@ -2,14 +2,131 @@
 <html lang="es">
 <head>
   <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Sitio Simple en Github Pages</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Best Utility Apps for Apple Devices</title>
+  <style>
+    /* Reset básico */
+    * {
+      margin: 0;
+      padding: 0;
+      box-sizing: border-box;
+    }
+
+    body {
+      font-family: Arial, sans-serif;
+      background: #f4f4f4;
+      color: #333;
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      min-height: 100vh;
+    }
+
+    header {
+      background: #fff;
+      width: 100%;
+      padding: 50px 20px;
+      text-align: center;
+      box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+      margin-bottom: 40px;
+    }
+
+    header h1 {
+      font-size: 3em;
+      font-weight: bold;
+      color: #222;
+    }
+
+    .container {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(150px, 1fr));
+      gap: 20px;
+      width: 90%;
+      max-width: 1200px;
+      margin-bottom: 40px;
+    }
+
+    .app-button {
+      background: #fff;
+      border: none;
+      border-radius: 45px;
+      text-align: center;
+      overflow: hidden;
+      box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+      transition: transform 0.2s;
+    }
+
+    .app-button:hover {
+      transform: translateY(-5px);
+    }
+
+    .app-button a {
+      display: block;
+      text-decoration: none;
+      color: #333;
+    }
+
+    .app-button img {
+      width: 100%;
+      display: block;
+    }
+
+    .app-button span {
+      display: block;
+      padding: 10px;
+      font-size: 1em;
+      font-weight: bold;
+    }
+  </style>
 </head>
 <body>
-  <h1>Bienvenido a mi sitio en Github Pages</h1>
-  <p>
-    Haz clic en el siguiente enlace para abrir el archivo <code>app-ads.txt</code>:
-  </p>
-  <a href="app-ads.txt" target="_blank">Ver app-ads.txt</a>
+  <header>
+    <h1>The Best Utility Apps for Apple Devices</h1>
+  </header>
+
+  <div class="container">
+    <!-- Botón de App 1 -->
+    <div class="app-button">
+      <a href="https://apps.apple.com/app/id6464453561" target="_blank">
+        <img src="icons/AlimojiIcon.png" alt="App 1">
+        <span>Alimoji</span>
+      </a>
+    </div>
+    <!-- Botón de App 2 -->
+    <div class="app-button">
+      <a href="https://apps.apple.com/app/id6470431303" target="_blank">
+        <img src="icons/HeyIcon.png" alt="App 2">
+        <span>Hey! hey! - LED BANNER</span>
+      </a>
+    </div>
+    <!-- Botón de App 3 -->
+    <div class="app-button">
+      <a href="https://apps.apple.com/app/id6473072869" target="_blank">
+        <img src="icons/WhiteboardIcon.png" alt="App 3">
+        <span>Casual Whiteboard</span>
+      </a>
+    </div>
+    <!-- Botón de App 4 -->
+    <div class="app-button">
+      <a href="https://apps.apple.com/app/id6478360139" target="_blank">
+        <img src="icons/EmotionWheelIcon.png" alt="App 4">
+        <span>Emowy</span>
+      </a>
+    </div>
+    <!-- Botón de App 5 -->
+    <div class="app-button">
+      <a href="https://apps.apple.com/app/id6670456281" target="_blank">
+        <img src="icons/ChoowyIcon.png" alt="App 5">
+        <span>Choowy</span>
+      </a>
+    </div>
+    <!-- Botón de App 6 -->
+    <div class="app-button">
+      <a href="https://apps.apple.com/app/id6739955345" target="_blank">
+        <img src="icons/FlashlightProIcon.png" alt="App 6">
+        <span>Flashlight Pro</span>
+      </a>
+    </div>
+  </div>
 </body>
 </html>
